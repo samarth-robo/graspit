@@ -368,7 +368,7 @@
     </chain>
     <approachDirection>
         <referenceLocation>-130 -15 0</referenceLocation>
-        <direction>0 -1 0</direction>
+        <direction>-0.7071067811865476 -0.7071067811865476 0</direction>
     </approachDirection>
     <eigenGrasps>eigen/human_eigen_cgdb.xml</eigenGrasps>
     <flockOfBirds number="1">
