@@ -259,9 +259,9 @@ void PositionStateEllipsoid::setTran(const transf &t)
 
 void PositionStateApproach::createVariables()
 {
-  mVariables.push_back(new SearchVariable("dist", -30, 200, 0, 100));
-  mVariables.push_back(new SearchVariable("wrist 1", -M_PI / 12.0, M_PI / 12.0, 0, M_PI / 24.0));
-  mVariables.push_back(new SearchVariable("wrist 2", -M_PI / 12.0, M_PI / 12.0, 0, M_PI / 24.0));
+  mVariables.push_back(new SearchVariable("dist", -70, 200, 0, 100));
+  mVariables.push_back(new SearchVariable("wrist 1", -M_PI / 6.0, M_PI / 6.0, 0, M_PI / 12.0));
+  mVariables.push_back(new SearchVariable("wrist 2", -M_PI / 6.0, M_PI / 6.0, 0, M_PI / 12.0));
 }
 transf PositionStateApproach::getCoreTran() const
 {
